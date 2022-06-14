@@ -22,11 +22,6 @@ img {
   margin: 0;
 }
 
-ul {
-  list-style-type: none;
-  font-size: 22px;
-  line-height: 3;
-}
 
 a {
 text-decoration: none;
@@ -41,13 +36,6 @@ font-size: 20px;
   margin-bottom: 20px;
 }
 
-.weather-temperature .active {
-  cursor:default;
-}
-
-.weather-temperature .active:hover {
-  text-decoration: none;
-}
 
 #description {
   font-size: 20px;
@@ -56,3 +44,23 @@ font-size: 20px;
 #date {
   font-size: 20px;
 }
+
+.buttons {
+  opacity: 0.7;
+  padding: 10px;
+}
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align:center;
+}
+
+.weather-forecast-date {
+  font-size: 17px;
+  color:rgb(25, 7, 98)
+}
+
+.weather-forecast-temperatures-min {
+  opacity: 0.6;
+}
+
